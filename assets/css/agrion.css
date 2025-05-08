@@ -9355,6 +9355,7 @@ ul {
   background-color: var(--agrion-base);
   padding: 43px 50px 50px;
   z-index: 1;
+  margin-top: 30px;
 }
 
 .project-details__bg-shape {
@@ -9444,7 +9445,7 @@ ul {
   background-color: var(--agrion-extra);
   padding: 42px 50px 50px;
   border-radius: var(--agrion-bdr-radius);
-  margin-top: 30px;
+  
 }
 
 .project-details__quote-title {
