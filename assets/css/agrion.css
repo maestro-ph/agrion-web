@@ -10060,12 +10060,15 @@ ul {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 1.4;
   color: var(--agrion-black);
   font-family: var(--agrion-font);
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  padding-right: 30px;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .faq-one-accrodion .accrodion + .accrodion {
@@ -10113,11 +10116,38 @@ ul {
 .faq-one-accrodion .accrodion-content {
   position: relative;
   padding: 0px 40px 30px;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-one-accrodion .accrodion.active .accrodion-content {
+  display: block;
 }
 
 .faq-one-accrodion .accrodion-content p {
   margin: 0;
   line-height: 32px;
+}
+
+/* Add these styles for FAQ page specifically */
+.faq-page .faq-one-accrodion .accrodion-title h4 {
+  line-height: 1.4;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.faq-page .faq-one-accrodion .accrodion-title {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  padding: 24px 40px 25px;
+  padding-right: 45px;
+  transition: all 200ms linear;
+  transition-delay: 0.1s;
+}
+
+.faq-page .faq-one-accrodion .accrodion-title h4::before {
+  right: 10px;
 }
 
 /*--------------------------------------------------------------
