@@ -13965,6 +13965,13 @@ ul {
   margin-bottom: 30px;
 }
 
+.faq-page__title {
+  font-weight: bold; 
+  font-size: 5rem; 
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 /*--------------------------------------------------------------
 ## Error Page
 --------------------------------------------------------------*/
